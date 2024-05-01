@@ -12,6 +12,7 @@ public class Login {
 		WebDriverManager.firefoxdriver().setup() ;
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.saucedemo.com/");
+		driver.manage().window().maximize();
 		
 //		String ActualTitle= driver.getTitle();
 //		String ExpectedTitle= "Swag Labs";	
